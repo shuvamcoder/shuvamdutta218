@@ -1,0 +1,195 @@
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 0;
+  background: #00A9B8;
+  color: #fff;
+  line-height: 1;
+  padding: 0.6em 1em 0.4em;
+  box-shadow: 3px 3px 3px #8b836a;
+  text-decoration: none;
+  font-weight: 600;
+}
+body
+{
+  text-align: center;
+  background-color: #E3E0D9
+}
+
+hr {
+         height:5px;
+         background-color: #00A9B8;
+         border: none;
+      }
+.content
+{
+   background-image: url(https://i.ibb.co/1JZLGPZ/output-onlineimagetools.png);
+   color: white;
+}
+.navbar
+  {
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+  }
+ .navbar ul
+ {
+   display: flex;
+ }
+   .navbar ul li
+  {
+    list-style:none;
+    padding-top: 2%;
+    margin-left: 5%;
+
+  }
+    .navbar ul li a
+  {
+    text-decoration:none;
+    margin:20px;
+    color: #E7CC61;
+    font-size: 20px;
+  }
+  .dropdown
+  {
+  background-color: #3F3D32;
+  width: 250px;
+  font-size: 35px;
+
+  display: none;
+  }
+  .dropdown ul
+  {
+  display:block;
+  text-align: left;
+
+  }
+  .dropdown ul li
+  {
+    text-align: left;
+    margin-top: 1px;
+  }
+  .navbar ul li:hover .dropdown
+  {
+    display: block;
+  }
+  nav a:hover
+{
+color: #f3dea3;
+}
+.parentcenter
+{
+height: 200px;
+width: 100%;
+}
+.img1
+{
+  display: flex;
+  margin-top: 2%;
+}
+.text1
+{
+  width: 60%;
+  padding-left: 5%;
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  text-align: left
+}
+.img2
+{
+  margin-top: 7%;
+  display:flex;
+  float: right;
+}
+.book-title
+{
+  margin-top: 12%;
+}
+.form1
+{
+height: 200px;
+background-color: #555;
+}
+.parent
+        {
+          width:100%;
+          display:flex;
+          margin-top:50px;
+          margin-left: 30px;
+          font-family: 'Cookie', cursive;
+          font-size: 25px;
+        }
+        .child1
+        {
+          width:70%;
+          font-size: 30px;
+        }
+            .child2
+        {
+          width:70%;
+          color:white;
+          margin-left: 30px;
+        }
+input
+{
+margin-left: 30px;
+height: 40px;
+width:100px;
+}
+textarea
+{
+margin-left: 30px;
+height: 40px;
+width:100px;
+}
+label
+{
+margin-left: 15px;
+}
+div
+{
+width:100%;
+}
+.container2
+{
+width: 100%;
+height: 700px;
+justify-content: center;
+text-align: center;
+left: 50%;
+animation-name: fade-in;
+animation-duration: 5s;
+}
+.n1
+{font-family: 'Cookie', cursive;
+  font-size: 50;
+  margin-top: 50px;}
+
+.n2
+{font-family: 'Cookie', cursive;
+  font-size: 50;}
+.n3
+{
+  font-family: 'Cookie', cursive;
+  font-size: 50;
+  margin-top: 50px;
+}
+.n4
+{
+  font-family: 'Cookie', cursive;
+font-size: 50;
+}
+script
+{
+  margin-top: 12%;
+}
+img
+{
+  margin-top: 12%;
+}
+.video
+{
+  width: 400px;
+  height: 300px;
+}
