@@ -15,6 +15,10 @@ body
   text-align: center;
   background-color: #E3E0D9
 }
+.videos
+{
+  text-align: left;
+}
 
 hr {
          height:5px;
@@ -56,6 +60,8 @@ hr {
   background-color: #3F3D32;
   width: 250px;
   font-size: 35px;
+  margin-top: 20px;
+  height: 100px;
 
   display: none;
   }
@@ -71,6 +77,31 @@ hr {
     margin-top: 1px;
   }
   .navbar ul li:hover .dropdown
+  {
+    display: block;
+  }
+  .dropdown1
+  {
+  background-color: #3F3D32;
+  width: 250px;
+  font-size: 35px;
+  margin-top: 20px;
+  height: 190px;
+
+  display: none;
+  }
+  .dropdown1 ul
+  {
+  display:block;
+  text-align: left;
+
+  }
+  .dropdown1 ul li
+  {
+    text-align: left;
+    margin-top: 1px;
+  }
+  .navbar ul li:hover .dropdown1
   {
     display: block;
   }
@@ -94,7 +125,7 @@ width: 100%;
   padding-left: 5%;
   font-size: 30px;
   font-family: 'Cookie', cursive;
-  text-align: left
+  text-align: left;
 }
 .img2
 {
@@ -117,7 +148,7 @@ background-color: #555;
           display:flex;
           margin-top:50px;
           margin-left: 30px;
-          font-family: 'Cookie', cursive;
+          font-family: 'Lato', sans-serif;
           font-size: 25px;
         }
         .child1
@@ -162,34 +193,22 @@ animation-name: fade-in;
 animation-duration: 5s;
 }
 .n1
-{font-family: 'Cookie', cursive;
-  font-size: 50;
+{font-family: 'Lato', sans-serif;
   margin-top: 50px;}
 
-.n2
-{font-family: 'Cookie', cursive;
-  font-size: 50;}
-.n3
-{
-  font-family: 'Cookie', cursive;
-  font-size: 50;
-  margin-top: 50px;
-}
-.n4
-{
-  font-family: 'Cookie', cursive;
-font-size: 50;
-}
-script
-{
-  margin-top: 12%;
-}
+
 img
 {
-  margin-top: 12%;
+  margin-top: 3%;
 }
 .video
 {
   width: 400px;
   height: 300px;
+}
+.n1-padding
+{
+ margin-left: 200px;
+ margin-right: 200px;
+ font-size: 20px;
 }
