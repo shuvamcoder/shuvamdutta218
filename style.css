@@ -215,7 +215,7 @@ img
 }
 .n1-padding
 {
- margin-left: 150px;
+ margin-left: 200px;
  margin-right: 200px;
  font-size: 20px;
 }
@@ -223,8 +223,5 @@ img
 {
  padding-left:600px;
   text-align: left;
-  display: flex;
-}
-h1{
   display: flex;
 }
