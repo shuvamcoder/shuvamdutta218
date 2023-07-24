@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title> </title>
+    </head>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.0.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDryXk52lmx1ANAJufnpOJ5d3yFEHio5-A",
+      authDomain: "test2-53274.firebaseapp.com",
+      projectId: "test2-53274",
+      storageBucket: "test2-53274.appspot.com",
+      messagingSenderId: "192755387456",
+      appId: "1:192755387456:web:5c52795ced0c863b05a3a5",
+      measurementId: "G-96YRVHZG95"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    
+      const auth = firebase.auth();
+      
+      
+      function signUp(){
+          
+          var email = document.getElementById("email");
+          var password = document.getElementById("password");
+          
+          const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
+          promise.catch(e => alert(e.message));
+          
+          alert("Signed Up");
+      }
+      
+      
+      
+      function signIn(){
+          
+          var email = document.getElementById("email");
+          var password = document.getElementById("password");
+          
+          const promise = auth.signInWithEmailAndPassword(email.value, password.value);
+          promise.catch(e => alert(e.message));
+          
+          
+          
+          
+      }
+      
+      
+      function signOut(){
+          
+          auth.signOut();
+          alert("Signed Out");
+          
+      }
+      
+      
+      
+      auth.onAuthStateChanged(function(user){
+          
+          if(user){
+              
+              var email = user.email;
+              alert("Active User " + email);
+              
+              //Take user to a different or home page
+  
+              //is signed in
+              
+          }else{
+              
+              alert("No Active User");
+              //no user is signed in
+          }
+          
+          
+          
+      });
+      
+  </script>
+  </html>
