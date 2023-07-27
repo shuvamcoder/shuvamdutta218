@@ -36,6 +36,7 @@ hr {
     width: 100%;
     background-color: black;
     text-align: center;
+    margin-bottom: 14%;
   }
  .navbar ul
  {
@@ -198,12 +199,8 @@ text-align: center;
 left: 50%;
 animation-name: fade-in;
 animation-duration: 5s;
+margin-top: 3%;
 }
-.n1
-{font-family: 'Lato', sans-serif;
-  margin-top: 50px;}
-
-
 img
 {
   margin-top: 3%;
@@ -214,14 +211,12 @@ img
   height: 300px;
 }
 .n1-padding
-{
- margin-left: 200px;
- margin-right: 200px;
+{ 
  font-size: 20px;
 }
 .i45d
 {
- padding-left:600px;
+  margin-left: 300px;
+  margin-right: 300px;
   text-align: left;
-  display: flex;
 }
