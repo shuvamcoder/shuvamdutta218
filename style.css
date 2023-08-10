@@ -66,13 +66,10 @@ hr {
   .dropdown
   {
   background-color: #3F3D32;
-  width: 225px;
+  width: 240px;
   font-size: 35px;
   margin-top: 20px;
-  height: 100px;
-  position: fixed;
-  text-align: left;
-
+  height: 130px;
   display: none;
   }
   .dropdown ul
