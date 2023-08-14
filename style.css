@@ -553,5 +553,9 @@ h6 span{
 {
 width: 100%;
 }
+.dropdown
+{
+	height: 150px;
+}
 
 
