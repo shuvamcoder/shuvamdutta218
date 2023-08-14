@@ -53,6 +53,7 @@ hr {
     padding-top: 2%;
     margin-left: 3%;
     display: flex;
+	  margin-bottom: 10px;
 
   }
     .navbar ul li a
