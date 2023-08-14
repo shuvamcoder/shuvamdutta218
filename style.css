@@ -549,5 +549,12 @@ h6 span{
 	width: auto;
 	display: block;
 }
+@media screen and (max-width: 768px)
+.navbar
+{
+width: 100%;
+overflow: hidden; /* Hide overflow content */
+        transition: width 0.5s; /* Smooth transition */
+}
 
 
