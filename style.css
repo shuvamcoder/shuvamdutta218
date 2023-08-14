@@ -35,7 +35,7 @@ hr {
    
 .navbar
   {
-    height: 75px;
+    height: 90px;
     width: 100%;
     background-color: black;
     text-align: center;
@@ -549,10 +549,10 @@ h6 span{
 	width: auto;
 	display: block;
 }
-@media screen and (max-width: 768px)
+@media screen and (min-width: 768px) and (max-width: 1024px) 
 .navbar
 {
 width: 100%;
 }
-}
+
 
