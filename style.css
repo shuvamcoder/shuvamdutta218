@@ -552,8 +552,6 @@ h6 span{
 .navbar
 {
 width: 100%;
-overflow: hidden; /* Hide overflow content */
-        transition: width 0.5s; /* Smooth transition */
 }
 
 
