@@ -66,7 +66,7 @@ hr {
   .dropdown
   {
   background-color: #3F3D32;
-  width: 240px;
+  width: 250px;
   font-size: 35px;
   margin-top: 20px;
   height: 130px;
@@ -77,6 +77,9 @@ hr {
   display:block;
   text-align: left;
 
+  }
+  h3{
+    margin-right: 20px;
   }
   form
   {
@@ -145,6 +148,7 @@ width: 100%;
   margin-top: 7%;
   display:flex;
   float: right;
+  margin-bottom: 50px;
 }
 .img342
 {
@@ -224,12 +228,17 @@ img
 .n1-padding
 { 
  font-size: 20px;
+ display: block;
 }
 .i45d
 {
   margin-left: 300px;
   margin-right: 300px;
   text-align: left;
+}
+.blog
+{
+  display: flex
 }
 .container
 {
@@ -256,10 +265,17 @@ body{
 	background-color: #1f2029;
 	overflow-x: hidden;
 }
-a {
+.blog1
+{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+a
+ {
 	cursor: pointer;
   transition: all 200ms linear;
-}
+  margin-top: 20px;
+ }
 a:hover {
 	text-decoration: none;
 }
