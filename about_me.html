@@ -46,6 +46,18 @@
   <button class="button">
       The Blog!
   </button>
+<sripct>
+  function toggleMenu() {
+    const menu = document.querySelector('.menu');
+    menu.classList.toggle('active');
+}
 
-</body>     
+// Add an event listener to each menu item
+document.querySelectorAll('.menu a').forEach(item => {
+    item.addEventListener('click', () => {
+        document.querySelector('.menu').style.width = '100%';
+    });
+});
+</sripct>
+</body> 
 </html>
