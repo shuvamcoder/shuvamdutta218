@@ -553,7 +553,16 @@ h6 span{
 @media screen and (min-width: 768px) and (max-width: 1024px) 
 .navbar
 {
-width: 100%;
+	width: 100%;
 }
+.menu-toggle {
+        display: block;
+    }
+
+    .menu.active {
+        display: flex;
+        width: 100%; /* Full screen width */
+    }
+
 
 
