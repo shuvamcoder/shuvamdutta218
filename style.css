@@ -562,5 +562,8 @@ overflow: hidden; /* Hide overflow content */
     margin-right: 20px;
     font-size: 15px;
   }
-	
+
+	.dropdown
+	{height: 140px;}
+		
 }
