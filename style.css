@@ -35,7 +35,7 @@ hr {
    
 .navbar
   {
-    height: 75px;
+    height: 100px;
     width: 100%;
     background-color: black;
     text-align: center;
@@ -45,8 +45,8 @@ hr {
  .navbar ul
  {
    display: flex;
-   
- }
+ margin-bottom: 30px;
+	}
    .navbar ul li
   {
     list-style: none;
@@ -69,7 +69,7 @@ hr {
   width: 250px;
   font-size: 35px;
   margin-top: 20px;
-  height: 140px;
+  height: 160px;
   display: none;
   }
   .dropdown ul
@@ -558,7 +558,7 @@ overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
 	height: 100px;
 }
-	.navbar ul li
+	.navbar ul 
 	{
 		margin-bottom: 30px;
 	}
