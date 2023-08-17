@@ -558,6 +558,10 @@ overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
 	height: 100px;
 }
+	.navbar ul li
+	{
+		margin-bottom: 30px;
+	}
   .h3
 	{ 
     margin-right: 20px;
