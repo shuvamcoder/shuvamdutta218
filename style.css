@@ -556,12 +556,12 @@ h6 span{
 width: 100%;
 overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
-	height: 90px;
+	height: 100px;
 }
   .h3
 	{ 
     margin-right: 20px;
-    font-size 15px;
+    font-size: 15px;
   }
 
 	.dropdown
