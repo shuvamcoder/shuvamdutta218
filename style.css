@@ -45,6 +45,7 @@ hr {
     background-color: black;
     text-align: center;
     margin-bottom: 14%;
+    display:absolute;
    
   }
  .navbar ul
