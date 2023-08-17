@@ -66,15 +66,16 @@ hr {
   .dropdown
   {
   background-color: #3F3D32;
-  width: 250px;
+  width: 140px;
   font-size: 35px;
-  margin-top: 20px;
+  margin-top: 80px;
   height: 160px;
   display: none;
+	  position:absolute;
   }
   .dropdown ul
   {
-  display:block;
+ 
   text-align: left;
 
   }
