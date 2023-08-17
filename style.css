@@ -35,7 +35,7 @@ hr {
    
 .navbar
   {
-    height: 100px;
+    height: 75px;
     width: 100%;
     background-color: black;
     text-align: center;
@@ -49,9 +49,10 @@ hr {
  }
    .navbar ul li
   {
-    list-style: none;
+    list-style:none;
+    padding-top: 2%;
     margin-left: 3%;
-    display: flex;
+    
 
   }
     .navbar ul li a
@@ -548,14 +549,3 @@ h6 span{
 	width: auto;
 	display: block;
 }
-@media screen and (max-width: 768px)
-.navbar
-{
-width: 100%;
-}
-.dropdown
-{
-	height: 200px;
-}
-
-
