@@ -556,7 +556,7 @@ h6 span{
 width: 100%;
 overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
-	height: 100px;
+	height: 150px;
 	background-color: pink;
 }
 	.navbar ul 
