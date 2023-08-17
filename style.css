@@ -44,7 +44,7 @@ hr {
   }
  .navbar ul
  {
-   display: flex;
+  /* display: flex;*/
  margin-bottom: 30px;
 	}
    .navbar ul li
