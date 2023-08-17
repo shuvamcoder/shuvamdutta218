@@ -59,6 +59,7 @@ hr {
     padding-top: 2%;
     margin-left: 3%;
     display: flex;
+    position:relative;
 
   }
     .navbar ul li a
@@ -74,7 +75,7 @@ hr {
   background-color: #3F3D32;
   width: 250px;
   font-size: 35px;
-  margin-top: 60px;
+  margin-top: 70px;
   height: 160px;
   display: none;
   }
