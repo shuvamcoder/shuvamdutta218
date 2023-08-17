@@ -49,10 +49,10 @@ hr {
  }
    .navbar ul li
   {
-    list-style:none;
+    list-style: none;
     padding-top: 2%;
     margin-left: 3%;
-    
+    display: flex;
 
   }
     .navbar ul li a
@@ -549,3 +549,11 @@ h6 span{
 	width: auto;
 	display: block;
 }
+@media screen and (max-width: 768px)
+.navbar
+{
+width: 100%;
+overflow: hidden; /* Hide overflow content */
+        transition: width 0.5s; /* Smooth transition */
+}
+
