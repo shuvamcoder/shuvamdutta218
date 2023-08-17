@@ -1,3 +1,6 @@
+.navbar > ul {
+  display: flex;
+}
 .button {
   display: inline-block;
   border: none;
@@ -32,10 +35,7 @@ hr {
    background-repeat: no-repeat;
    color: white;
 }
-   #top ul li
-{
-	display:flex;
-}
+
 .navbar
   {
     height: 100px;
@@ -47,7 +47,7 @@ hr {
   }
  .navbar ul
  {
-  /* display: flex;*/
+ 
  margin-bottom: 30px;
 	}
    .navbar ul li
