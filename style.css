@@ -557,4 +557,10 @@ width: 100%;
 overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
 }
+  .h3
+	{ 
+    margin-right: 20px;
+    font-size: 15px;
+  }
+	
 }
