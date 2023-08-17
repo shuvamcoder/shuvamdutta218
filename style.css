@@ -1,4 +1,6 @@
+
 .navbar > ul {
+  /* Your styles for the top-level navbar ul go here */
   display: flex;
 }
 .button {
@@ -16,7 +18,7 @@
 body
 {
   text-align: center;
-  
+ 
 }
 .videos
 {
@@ -35,7 +37,7 @@ hr {
    background-repeat: no-repeat;
    color: white;
 }
-
+   
 .navbar
   {
     height: 100px;
@@ -43,13 +45,13 @@ hr {
     background-color: black;
     text-align: center;
     margin-bottom: 14%;
-	
+   
   }
  .navbar ul
  {
- 
+   display: flex;
  margin-bottom: 30px;
-	}
+    }
    .navbar ul li
   {
     list-style: none;
@@ -69,20 +71,19 @@ hr {
   .dropdown
   {
   background-color: #3F3D32;
-  width: 140px;
+  width: 250px;
   font-size: 35px;
-  margin-top: 120px;
+  margin-top: 20px;
   height: 160px;
   display: none;
-position:absolute;
   }
   .dropdown ul
   {
- 
+  display:block;
   text-align: left;
 
   }
-  .h3{ 
+  .h3{
     margin-right: 20px;
     font-size: 15px;
   }
@@ -231,7 +232,7 @@ img
   height: 300px;
 }
 .n1-padding
-{ 
+{
  font-size: 20px;
  display: block;
 }
@@ -259,16 +260,16 @@ embed
 /* Please ❤ this if you like it! */
 
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&#39;);
 
 body{
-	font-family: 'Poppins', sans-serif;
-	font-weight: 300;
-	font-size: 15px;
-	line-height: 1.7;
-	color: #c4c3ca;
-	background-color: #1f2029;
-	overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    overflow-x: hidden;
 }
 .blog1
 {
@@ -277,12 +278,12 @@ body{
 }
 a
  {
-	cursor: pointer;
+    cursor: pointer;
   transition: all 200ms linear;
   margin-top: 20px;
  }
 a:hover {
-	text-decoration: none;
+    text-decoration: none;
 }
 .link {
   color: #c4c3ca;
@@ -371,13 +372,13 @@ h6 span{
   left: 0;  
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  transition: all 600ms ease-out; 
+  transition: all 600ms ease-out;
 }
 .card-front, .card-back {
   width: 100%;
   height: 100%;
   background-color: #2a2b38;
-  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg');
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg&#39;);
   background-position: bottom center;
   background-repeat: no-repeat;
   background-size: 300%;
@@ -410,7 +411,7 @@ h6 span{
 }
 
 
-.form-group{ 
+.form-group{
   position: relative;
   display: block;
     margin: 0;
@@ -542,17 +543,17 @@ h6 span{
 
 
 .logo {
-	position: absolute;
-	top: 30px;
-	right: 30px;
-	display: block;
-	z-index: 100;
-	transition: all 250ms linear;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display: block;
+    z-index: 100;
+    transition: all 250ms linear;
 }
 .logo img {
-	height: 26px;
-	width: auto;
-	display: block;
+    height: 26px;
+    width: auto;
+    display: block;
 }
 @media screen and (max-width: 768px) {
 .navbar
@@ -560,20 +561,20 @@ h6 span{
 width: 100%;
 overflow: hidden; /* Hide overflow content */
         transition: width 0.5s; /* Smooth transition */
-	height: 150px;
-	background-color: black;
+    height: 100px;
+    background-color: pink;
 }
-	.navbar ul 
-	{
-		margin-bottom: 30px;
-	}
+    .navbar ul
+    {
+        margin-bottom: 30px;
+    }
   .h3
-	{ 
+    {
     margin-right: 20px;
     font-size: 15px;
   }
 
-	.dropdown
-	{height: 160px;}
-		
+    .dropdown
+    {height: 160px;}
+       
 }
