@@ -1,3 +1,12 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.7;
+    color: #c4c3ca;
+    background-color: #1f2029;
+    overflow-x: hidden;
+}
 .navbar > ul {
   /* Your styles for the top-level navbar ul go here */
   display: flex;
@@ -262,15 +271,7 @@ embed
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&#39;);
 
-body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.7;
-    color: #c4c3ca;
-    background-color: #1f2029;
-    overflow-x: hidden;
-}
+
 .blog1
 {
   margin-left: 100px;
