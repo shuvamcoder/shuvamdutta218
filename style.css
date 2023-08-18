@@ -40,6 +40,7 @@ hr {
    background-size: 100%;
    background-repeat: no-repeat;
    color: white;
+  position:relative;
 }
    
 .navbar
@@ -63,7 +64,7 @@ hr {
     padding-top: 2%;
     margin-left: 3%;
     display: flex;
-    position:relative;
+    
 
   }
     .navbar ul li a
@@ -82,6 +83,7 @@ hr {
   margin-top: 70px;
   height: 160px;
   display: none;
+  position:relative;
   }
   .dropdown ul
   {
