@@ -11,7 +11,13 @@ body{
 #buttonbelow
 {
 	height:40px;
+	margin-top:40px;
 }
+ .videofooter
+  {
+    display:block;
+   
+  }
 .navbar > ul {
   /* Your styles for the top-level navbar ul go here */
   display: flex;
