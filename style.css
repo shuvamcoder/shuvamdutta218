@@ -8,6 +8,10 @@ body{
     overflow-x: hidden;
     text-align: center;
 }
+#buttonbelow
+{
+	height:40px;
+}
 .navbar > ul {
   /* Your styles for the top-level navbar ul go here */
   display: flex;
