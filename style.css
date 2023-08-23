@@ -8,10 +8,18 @@ body{
     overflow-x: hidden;
     text-align: center;
 }
+
+
+#kestral
+{
+  margin-left:30%;
+}
+
+
 #buttonbelow
 {
 	height:40px;
-	margin-top:40px;
+	
 }
  .videofooter
   {
