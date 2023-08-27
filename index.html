@@ -9,6 +9,43 @@
 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Cookie&family=Great+Vibes&family=Lato&display=swap" rel="stylesheet"></head>
   
 <body>
+	<h1>Countdown to Book Release</h1>
+ <div id="countdown"> 
+    <div>Days: <span id="days"></span></div>
+    <div>Hours: <span id="hours"></span></div>
+    <div>Minutes: <span id="minutes"></span></div>
+    <div>Seconds: <span id="seconds"></span></div>
+  </div>
+
+  <div id="headline"></div>
+  <div id="content"></div>
+
+  <script>
+    (function() {
+      const second = 1000,
+            minute = second * 60,
+            hour = minute * 60,
+            day = hour * 24;
+
+      const birthday = new Date("09/30/2023").getTime();  // Replace YYYY with the birth year
+
+      const countdown = setInterval(function() {
+        const now = new Date().getTime(),
+              distance = birthday - now;
+
+        document.getElementById("days").innerText = Math.floor(distance / day);
+        document.getElementById("hours").innerText = Math.floor((distance % day) / hour);
+        document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute);
+        document.getElementById("seconds").innerText = Math.floor((distance % minute) / second);
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          clearInterval(countdown);
+        }
+      }, 0);
+    })();
+  </script>
   <div class="content"> 
 <div class="navbar" id="top">
     <nav>
