@@ -8,6 +8,39 @@ body{
     overflow-x: hidden;
     text-align: center;
 }
+ #countdown {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 52px;
+    }
+
+    .countdown-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px;
+      padding: 20px;
+      border-radius: 10px;
+      font-size: 52px;
+      color: white;
+    }
+
+    #days {
+      background-color: #FF5733;
+    }
+
+    #hours {
+      background-color: #C70039;
+    }
+
+    #minutes {
+      background-color: #900C3F;
+    }
+
+    #seconds {
+      background-color: #581845;
+    }
 #footerp
 {
 	color: white;
