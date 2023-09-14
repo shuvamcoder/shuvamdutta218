@@ -40,33 +40,7 @@
         </ul>
     </nav>
     </div>
-<h2 class="n1"> Sumbit A Comment: </h1>
-<form action="{{ url_for('com') }}" method="POST" class="form1">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-  <br>
-  <label for="comment">Comment:</label>
-  <textarea id="comment" name="comment" required></textarea>
-  <br>
-  <input type="submit" value="Submit">
-</form>
-<h2 class="n1"> Comments:</h2>
-{% for comment in comments %}
-<div class="comment" style="background-color: #808080; color: #FFFFFF; padding: 10px;">
-<p> Name: {{ comment.author }}                                                 Comment:  {{ comment.text }}</p>
-</div>
-{% endfor %}
-
-<h2 class="n1"> Delete A Comment: </h2>
-
-    {% for comment in comments %}
-        <div class="comment">
-            <p> Name: {{ comment.author }}                                                 Comment:  {{ comment.text }}</p>
-            <form action="/delete_comment/{{ comment.id }}" method="post">
-                <input type="submit" value="Delete">
-            </form>
-        </div>
-    {% endfor %}
+<h1> Raffle/Contest details coming soon!</h1>
 
 </body>
 </html>
