@@ -742,8 +742,8 @@ background-positon-x: 0px;
 width: 100%;
 overflow: hidden; /* Hide overflow content */
       transition: width 0.5s; /* Smooth transition */
-  height: 115px;
-  background-color: pink;
+  height: 130px;
+  background-color: black;
 }
   .navbar ul
   {
