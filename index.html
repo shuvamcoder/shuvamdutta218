@@ -27,7 +27,7 @@
             hour = minute * 60,
             day = hour * 24;
 
-      const birthday = new Date("09/30/2023").getTime();  // Replace YYYY with the birth year
+      const birthday = new Date("10/22/2023").getTime();  // Replace YYYY with the birth year
 
       const countdown = setInterval(function() {
         const now = new Date().getTime(),
@@ -39,7 +39,7 @@
         document.getElementById("seconds").innerText = Math.floor((distance % minute) / second);
 
         if (distance < 0) {
-          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("headline").innerText = "Book Launch Party Today!";
           document.getElementById("countdown").style.display = "none";
           clearInterval(countdown);
         }
